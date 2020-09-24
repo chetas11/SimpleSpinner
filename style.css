@@ -1,0 +1,40 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.wrapper {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  background-color: chocolate;
+  color: aliceblue;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-top: 10rem;
+  margin-bottom: 2rem;
+  color: #393b44;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.loader {
+  width: 5rem;
+  height: 5rem;
+  display: inline-block;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top-color: #ffff;
+  animation: 1s spin infinite ease-in-out;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
